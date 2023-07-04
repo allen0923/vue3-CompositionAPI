@@ -1,27 +1,27 @@
-# 启动项目
+# To Run the Project
 
 1. npm install
 2. npm run dev
 
-# 接口说明
+# API documentation
 
-## 获取列表
+## List
 
 ```javascript
 axios.get('/list')
 ```
 
-## 删除
+## Delete
 
 ```javascript
 axios.delete(`/del/${id}`)
 ```
 
-## 编辑
+## Edit
 
 ```javascript
 axios.patch(`/edit/${id}`, {
-  name: '姓名',
-  place: '籍贯',
+  name: 'name',
+  place: 'place of birth',
 })
 ```
